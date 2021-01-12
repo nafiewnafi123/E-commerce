@@ -5,30 +5,245 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello Nafiew</h1>
+   <header class="container">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/3.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
+              <a class="nav-link" href="#backpack">Backpack</a>
+              <a class="nav-link" href="#log-in">LOG IN</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide nafi-slide mt-5" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+          <div class="row d-flex align-items-center p-5">
+              <div class="col-md-7 "> 
+
+             <h1>নাফিউর বাপের টাকায় কিনা টিভি  </h1> 
+             <p> আসলে বড় লজ্জার বিষয় আমার বাসায় ই টিভি নেই আম্মু ভেঙ্গে ফেলসে এই আরকি কিন্তু আমি আপনাকে সেই মানের আমার ভাঙ্গা টিভি দিব</p>  
+             <h3>আমি কিনসি ৭০হাজারে কিন্তু ভাঙ্গা বলে মাত্র ১হাজারে দিয়ে দিব</h3>
+             <button class="btn btn-warning">কিনতে এই বোতামে একটা টিপ মারো</button>
+         </div>
+              <div class="col-md-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+              </div>
+          </div> 
+          </div>
+          <div class="carousel-item">
+         <div class="row d-flex align-items-center p-5">
+             <div class="col-md-7"> 
+              <h1>নজ্রুল ইসলামের গর্বিত সন্তান নাফিউর হেডফোন </h1> 
+              <p>নাফিউর হেডফোন কিনতে চাও?ফ্রি তে দিতে পারি একটা শর্ত আছে-আমাকে জিএফ খুজে দিতে হবে!</p>  
+              <h3>মাত্র ৮৫০০টাকা</h3>
+              <button class="btn btn-warning">না কিনলে তরে খুন করব-পটাপট কিনে ফেলতে ক্লিক মার</button>
+             </div>
+             <div class="col-md-5">
+                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+             </div>
+         </div>
+          </div>
+          <div class="carousel-item">
+           <div class="row d-flex align-items-center p-5">
+               <div class="col-md-7">
+                <h1>ফালতু এক্স-বক্স </h1>
+                <p> আসলে স্টক শেষ ভাই কুবি কষ্ট</p>  
+                <h3>মাত্র ১লাখ ২৩ হাজার টাকা</h3>
+                <button class="btn btn-warning">আমি জানি তুই ফকির তাও কিনে ফেলতে ক্লিক মার</button>
+               </div>
+               <div class="col-md-5">
+                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+               </div>
+           </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+
+   </header>
+   <main class="container">
+    <section id="" class="container categories mt-5 ">
+        <div class="row">
+          <div class="col-md-4 bg-danger">
+            <div class="d-flex justify-content-between align-items-center cat1 justify-content-around">
+              <h1 class="text-white">Watch</h1>
+              <img src="images/categories/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex justify-content-between align-items-center cat2 bg-primary justify-content-around">
+              <h1 class="text-white">Bag</h1>
+              <img src="images/categories/bag.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex justify-content-between align-items-center cat3 bg-warning justify-content-around">
+              <h1 class="text-white">Shoes</h1>
+              <img src="images/categories/shoes.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section> 
 
 
 
+   <section id="shoes" class="mt-5"> 
+<h2>Shoes</h2>
 
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col">
+          <div class="card nafi-card h-100 shadow">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="carr-title">গরুর জুতা</h5>
+              <h5>দামঃ মাত্র ১০০০০/- </h5>
+              <p class="card-body">
+              <h5 class="ca-text">ইতালিয়ান পণ্য বোটো!</p>
+            </div>
+            <div class=" card-footer">
+              <button class="btn btn-warning">কিনতে গুতা মার</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ছাগলের জুতা</h5>
+              <h5>দামঃ মাত্র ১০০০/- </h5>
+              <p class="card-text">আসলে হয়সে কি ভাই এই জুতা জুতসই না!</p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-warning">দে!গুতা</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ফকিন্নি জুতা</h5>
+              <h5>দামঃ মাত্র ৫টাহা </h5>
+              <p class="card-text">এইসব জুতা পড়লে আপনাকে লাগবে চরম উইথ গরম</p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-warning">চাইলে গুতা দিতে পারো</button>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   <section id="backpack"  class="mt-5"> 
+    <h2>Backpack</h2>
     
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+              <div class="card h-100 shadow">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-title">লাল থইলা</h5>
+                  <h5>দামঃ মাত্র ১০০০০/- </h5>
+                  <p class="card-body">
+                  <h5 class="ca-text">এই থইলাতে আপনার ভিক্ষা করা সকল রসদ সামগ্রী রাখতে পারিবেন অতি সহজে</p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-warning">ঘুরে আসো দোকান থেকে</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">নীল থইলা</h5>
+                  <h5>দামঃ মাত্র ২০০০০/- </h5>
+                  <p class="card-text">এই থইলাতে লাল থইলা থেকে বেশি জায়গা লয় আপনার ভিক্ষা করা সকল রসদ সামগ্রী রাখতে পারিবেন অতি সহজে </p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-warning"> কিনতে টিপ মারুইন</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">লেভেল ৩ এর পাভজি ব্যাগ
+                    
+                  </h5>
+                  <h5>দামঃ মাত্র ৫০০০০০/- </h5>
+                  <p class="card-text">আসলে এইডা পাভজি যারা খেলে তারার লাইগা যদি আপনি লুট বেশি নিতে চান তাড়াতাড়ি স্টক শেষ হওয়ার আগেই লইয়া লাইন</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-warning">কিনবেন?সিরিয়াস আপনি?এনে চাপ দিন তাহলে</button>
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>
+
+
+       <section id="LOG-IN" style="height: 300px;" class="bg-info mt-5 d-flex align-items-center justify-content-center ">
+
+       <div>
+        <h1>LET'S STAY IN TOUCH </h1>
+        <h6>
+      ভালো আছেন আশা করি আপনার জিএফ/বিএফ ভালো আছে!তাদের খবর আমাদের দিতে ইমেইল করেন- <br> 
+ <button class="bangla"><a href="www.nafionaf123@gmail.com">চিডি পাডাও আমার ঠিকানায় </a></button>
+        </h6>
+        <input type="text" placeholder="Enter your E-mail">
+        <button class="btn btn-warning">SUBMIT</button>
+
+       </div>
+
+       </section>
+   
+   </main> 
+   <footer class="text-center mt-5">
+    ©2020 Nafiew E-Commerce. All rights reserved. DHAKA,    BANGLADESH!
+   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
 </body>
 </html>

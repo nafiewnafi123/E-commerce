@@ -1,0 +1,11 @@
+.nafi-slide .carousel-item{
+    background-color:rgb(233, 92, 67);
+    border-radius: 1em;
+} 
+.bangla{
+    background-color: tomato;
+    border:  solid 2px;
+    border-radius: 10px;
+    font-style: italic;
+  font-style: normal;
+}
